@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Formulario de Registro No.4</title>
+        <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="div-main-container">
+            <form class="formulario" id="formulario">
+                <div class="div-legend">
+                    <legend class="html-legend">Formulario de Registro</legend>
+                </div>
+                <div class="div-datos">
+                    <label class="html-label" for="html-input-nombre" >Nombre:</label>
+                    <input class="html-input" id="html-input-nombre" type="text" minlength="1" maxlength="25" required autocomplete="off" autofocus>
+                    
+                    <label class="html-label" for="html-input-apellido" >Apellido:</label>
+                    <input class="html-input" id="html-input-apellido" type="text" minlength="1" maxlength="25" required autocomplete="off">
+
+                    <label class="html-label" for="html-input-edad" >Edad:</label>
+                    <input class="html-input" id="html-input-edad" type="number" min="18" max="70" required autocomplete="off">
+                    
+                    <label class="html-label" for="html-input-telefono" >Teléfono:</label>
+                    <input class="html-input" id="html-input-telefono" type="tel" required autocomplete="off">
+                    
+                    <label class="html-label" for="html-textarea-direccion" >Dirección:</label>
+                    <textarea name="" class="html-texarea" id="html-textarea-direccion" cols="20" rows="5" maxlength="150" autocomplete="off"></textarea>
+                    
+                    <label class="html-label" for="html-input-username" >User Name:</label>
+                    <input class="html-input" id="html-input-username" type="tex" minlength="8" maxlength="15" required autocomplete="off">
+                    
+                    <label class="html-label" for="html-input-password" >Password:</label>
+                    <input class="html-input" id="html-input-password" type="password" minlength="8" maxlength="15" required autocomplete="off">
+
+                    <label class="html-label" for="html-input-confirme-password" >Confirme Password:</label>
+                    <input class="html-input" id="html-input-confirme-password" type="password" minlength="8" maxlength="15" required autocomplete="off">
+                    
+                    <label class="html-label" for="html-input-email">Email:</label>
+                    <input class="html-input" id="html-input-email" type="email" required autocomplete="off">
+                    
+                    <label class="html-label" for="html-input-confirme-email">Confirme Email:</label>
+                    <input class="html-input" id="html-input-confirme-email" type="email" required autocomplete="off">
+                </div>
+                <div class="div-button">
+                    <input class="html-button" type="submit" value="Enviar"></input>
+                </div>
+            </form>
+        </div>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

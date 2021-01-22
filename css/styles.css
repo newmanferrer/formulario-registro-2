@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, teal,rgb(0, 223, 223));
+    background-repeat: no-repeat;
+}
+
+.div-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 600px;
+    height: 700px;
+    margin-top: 60px;
+    background-color: teal;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(5, 255, 255);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 690px;
+    margin-top: 5px;
+}
+
+.div-legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    width: 580px;
+    height: 15%;
+}
+
+.html-legend {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.div-datos {
+    display: grid;
+    grid-template-columns: 200px 350px;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 70%;
+    margin-bottom: 30px;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html-button {
+    color: teal;
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 7px 25px;
+
+    border: none;
+    border-radius: 5px;
+
+}
+
+.html-button:hover {
+    color: inherit;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: teal;
+    box-shadow: 5px 5px 5px white;
+
+}
+
+.html-label {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.html-input {
+    color: inherit;
+    font-size: 18px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.html-texarea {
+    resize: none;
+    color: white;
+    font-size: 17px;
+    background: none;
+    border: 2px solid white;
+}
